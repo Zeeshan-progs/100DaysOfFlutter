@@ -37,7 +37,7 @@ class _CurvedNavigationState extends State<CurvedNavigation> {
         color: Colors.white, // by default color is white you can leave it as
         animationDuration: Duration(milliseconds: 400),
         // adding duration time yiu can as you want
-        // you can add nevigation also by using onTap property
+        // you can add navigation also by using onTap property
         // index is a value that store clicking index means which icon did you clicked
 
         onTap: (index) {
