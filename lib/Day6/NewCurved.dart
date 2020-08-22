@@ -1,8 +1,7 @@
-
 // Day 6 Curved NavugationBar
 
-import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:flutter/material.dart';
 
 class CurvedNavigation extends StatefulWidget {
   @override
@@ -10,7 +9,6 @@ class CurvedNavigation extends StatefulWidget {
 }
 
 class _CurvedNavigationState extends State<CurvedNavigation> {
-
   int onClick = 0;
 
   // now to navigate you need to create a list and list always be final type
@@ -33,17 +31,16 @@ class _CurvedNavigationState extends State<CurvedNavigation> {
       // body to show the changes
       body: pageToNavigate[onClick],
 
-
       bottomNavigationBar: CurvedNavigationBar(
         // there is more properties in curved NavigationBar Widget as
         backgroundColor: Colors.pink[700],
-        color: Colors.white,// by default color is white you can leave it as
+        color: Colors.white, // by default color is white you can leave it as
         animationDuration: Duration(milliseconds: 400),
         // adding duration time yiu can as you want
         // you can add nevigation also by using onTap property
         // index is a value that store clicking index means which icon did you clicked
 
-        onTap: (index){
+        onTap: (index) {
           // change navigation you need to add setState or setState is a
           // Stateful widget property so you need to use a stateless
           // widget
@@ -58,8 +55,14 @@ class _CurvedNavigationState extends State<CurvedNavigation> {
         },
 
         items: [
-          Icon(Icons.arrow_forward,size: 30,),
-          Icon(Icons.compare_arrows,size: 30,),
+          Icon(
+            Icons.arrow_forward,
+            size: 30,
+          ),
+          Icon(
+            Icons.compare_arrows,
+            size: 30,
+          ),
           Icon(Icons.person, size: 30),
           Icon(Icons.search, size: 30),
         ],
@@ -68,16 +71,12 @@ class _CurvedNavigationState extends State<CurvedNavigation> {
   }
 }
 
-
-
 // that's it for today
 // Like
 // Share
 // subscribe
 
-
 // get all latest updates
-
 
 //100daysOfflutter
 
