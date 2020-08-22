@@ -10,10 +10,10 @@ class NewListView extends StatelessWidget {
         appBar: AppBar(
           title: Text(" Day 2"),
         ),
-          // there is one more way to do a scroll view design by using ListView Widget
-          // first you need to remove SingleChildScrollView
+        // there is one more way to do a scroll view design by using ListView Widget
+        // first you need to remove SingleChildScrollView
 
-          // change Column widget with ListView
+        // change Column widget with ListView
         body: ListView(
           children: [
             Container(
