@@ -25,8 +25,9 @@ class _NewNavigationState extends State<NewNavigation> {
       body: pages[clicked],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: clicked,
-        type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.deepOrange,
+        type: BottomNavigationBarType.shifting,
+//        type: BottomNavigationBarType.fixed,
+//        backgroundColor: Colors.greenAccent,
         onTap: (index) {
           setState(() {
             clicked = index;
