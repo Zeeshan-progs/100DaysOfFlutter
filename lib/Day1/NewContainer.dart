@@ -1,15 +1,9 @@
-
-
-
 // Day 1 Flutter Basic to Advance Design Only For You Enjoy..
 
 // work start in flutter by importing material package
 import 'package:flutter/material.dart';
 
 // like all programming language dart's Flutter also run  by using main method
-
-
-
 
 // create a Stateless Widgit
 //give name of widget that you previously taken
@@ -45,7 +39,6 @@ class NewContainer extends StatelessWidget {
                   color: Colors.red,
                 ),
               ),
-
               Expanded(
                 child: Container(
                   height: 100,
@@ -53,7 +46,6 @@ class NewContainer extends StatelessWidget {
                   color: Colors.black,
                 ),
               ),
-
               Expanded(
                 child: Container(
                   height: 100,
@@ -61,7 +53,6 @@ class NewContainer extends StatelessWidget {
                   color: Colors.amber,
                 ),
               ),
-
               Expanded(
                 child: Container(
                   height: 100,
@@ -69,8 +60,6 @@ class NewContainer extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
-
-
               Expanded(
                 child: Container(
                   height: 100,
@@ -78,7 +67,6 @@ class NewContainer extends StatelessWidget {
                   color: Colors.brown,
                 ),
               ),
-
               Expanded(
                 child: Container(
                   height: 100,
@@ -90,7 +78,6 @@ class NewContainer extends StatelessWidget {
           ),
         ),
       ),
-
     );
   }
 }
