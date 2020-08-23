@@ -33,4 +33,10 @@ Day 4 - Bottom Navigation Bar          ->>>>>>   https://youtu.be/M0ErR1-7MfA
 Day 5 - Drawer                         ->>>>>>   https://youtu.be/LLueLQNlqyc
 
 
+Day 6 - Curved Navigation Bar          ->>>>>>   https://youtu.be/Jezq53pPkp8
+
+
+
+
+
 
