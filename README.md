@@ -36,6 +36,9 @@ Day 5 - Drawer                         ->>>>>>   https://youtu.be/LLueLQNlqyc
 Day 6 - Curved Navigation Bar          ->>>>>>   https://youtu.be/Jezq53pPkp8
 
 
+Day 7 - Alert Dialog and Show Dialog         ->>>>>>   https://youtu.be/Y4gITjz8G68
+
+
 
 
 
