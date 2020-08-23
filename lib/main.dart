@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practiceproject/Day6/NewCurved.dart';
+import 'package:practiceproject/Day7/Alert_Box.dart';
 
 void main() {
   runApp(
@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: CurvedNavigation(),
+      home: NewAlert(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
