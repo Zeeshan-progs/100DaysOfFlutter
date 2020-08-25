@@ -57,8 +57,8 @@ class AlertMessage extends StatelessWidget {
             FlatButton(onPressed: (){
               print("No Is Tapped ");
             }, child: Text("No")),
-            // if you wana check that your action button is working or not 
-            // add print stattement to show 
+            // if you wanna check that your action button is working or not
+            // add print statement to show
             
            ],
     );
