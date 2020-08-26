@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practiceproject/Day8/ImageSlider.dart';
+import 'package:practiceproject/Day9/image_show.dart';
 
 void main() {
   runApp(
@@ -11,8 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
-      home: ImageSlider(),
+      home: ImageShow(),
       debugShowCheckedModeBanner: false,
     );
   }
