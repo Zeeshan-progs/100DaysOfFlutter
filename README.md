@@ -42,6 +42,13 @@ Day 7 - Alert Dialog and Show Dialog                   ->>>>>>   https://youtu.b
 Day 8 - Image Slider with Icon And Flat Button         ->>>>>>   https://youtu.be/2Akf9urH3Es
 
 
+Day 8 - Carousel Slider                                ->>>>>>  https://youtu.be/khu-PFlLpOs
+
+
+
+
+
+
 
 
 
