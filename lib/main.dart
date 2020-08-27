@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practiceproject/Day9/image_show.dart';
+import 'package:practiceproject/day10/Confetti_screen.dart';
 
 void main() {
   runApp(
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ImageShow(),
+      home: NewConfetti(),
       debugShowCheckedModeBanner: false,
     );
   }
