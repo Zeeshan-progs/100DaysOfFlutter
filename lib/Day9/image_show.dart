@@ -7,7 +7,7 @@ class ImageShow extends StatefulWidget {
 }
 
 class _ImageShowState extends State<ImageShow> {
-  int change = 0;
+  int imageIndex = 0;
   List imageList = [
    Image.network('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/nature-welcome-church-poster-template-4462aba18bb8695eaa7cd2ecded68fc6_screen.jpg?ts=1561468002'),
    Image.network('https://wallpaperaccess.com/full/25636.jpg'),
