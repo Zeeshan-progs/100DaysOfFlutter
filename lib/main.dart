@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practiceproject/Day11/NewCard.dart';
+import 'package:practiceproject/Day11/VideoPlayer.dart';
 
 void main() {
   runApp(
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NewCard(),
+      home: CustomeVideoPlayer(),
       debugShowCheckedModeBanner: false,
     );
   }
