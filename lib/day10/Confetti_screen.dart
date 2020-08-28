@@ -59,7 +59,10 @@ class _NewConfettiState extends State<NewConfetti> {
               onPressed: () {
                 control.play();
               },
-              child: Text("Click To Celebrate ")),
+              child: Text("Click To Celebrate "),
+        ),
+
+
         ],
       ),
     );
