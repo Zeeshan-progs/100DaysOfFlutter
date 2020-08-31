@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-class CustomeVideoPlayer extends StatefulWidget {
+class CustomVideoPlayer extends StatefulWidget {
   @override
-  _CustomeVideoPlayerState createState() =>
-      _CustomeVideoPlayerState();
+  _CustomVideoPlayerState createState() =>
+      _CustomVideoPlayerState();
 }
 
-class _CustomeVideoPlayerState extends State<CustomeVideoPlayer> {
+class _CustomVideoPlayerState extends State<CustomVideoPlayer> {
   VideoPlayerController controll;
 
   @override
   void initState() {
     super.initState();
-    controll = VideoPlayerController.asset('assets\Mirzapur 2.mp4')
+    controll = VideoPlayerController.asset('assets\fast_furious_9.mp4')
       ..initialize().then((_) => setState(() {}));
+
     controll.setLooping(true);
   }
 
